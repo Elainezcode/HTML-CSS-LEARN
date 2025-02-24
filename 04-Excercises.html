@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    button{
+      margin: 10px;
+      padding: 8px;
+    }
+
+    a{
+      margin-right: 10px;
+    }
+
+    .stretch{
+      background-color: green;
+      border: none;
+      color: white;
+      transition: padding 0.5s;
+    }
+
+    .stretch:hover{
+      padding: 15px 30px;
+    }
+
+    .shadow{
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+    }
+
+    .shadow:active{
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .butt{
+      color: white;
+      background-color: green;
+      border: none;
+      padding: 8px 20px;
+      font-size: large;
+      transition: padding 0.15s,
+        margin 0.15s;
+    }
+
+    .butt:hover{
+      padding: 8px 30px;
+      margin: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <button>Back</button>
+
+      <a href="">1</a>
+      <a href="">2</a>
+      <a href="">3</a>
+      <a href="">4</a>
+      <a href="">5</a>
+
+    <button>Next</button>
+  </div>
+
+  <div>
+    <button class="stretch">Stretch</button>
+  </div>
+
+  <div>
+    <button class="shadow">Shadow</button>
+  </div>
+
+  <div>
+    <button class="butt">one</button>
+    <button class="butt">two</button>
+    <button class="butt">three</button>
+  </div>
+</body>
+</html>
