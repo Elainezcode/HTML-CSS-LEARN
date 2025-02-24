@@ -1,0 +1,126 @@
+body{
+  margin: 10px;
+  font-family: Arial;
+}
+
+.Uber{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.3s;
+}
+
+.Uber:hover{
+  opacity: 0.8;
+}
+
+.Amazon{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 12px 45px;
+  border-radius: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.Amazon:hover{
+  background-color: rgb(233, 197, 18);
+}
+
+.GitHub{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 20px;
+  font-weight: bold;
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.GitHub:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bootstrap{
+  margin-top: 15px;
+}
+
+.get{
+  background-color: rgb(121, 82, 179);
+  border: none;
+  color: white;
+  transition: background-color 0.15s;
+}
+
+.get:hover{
+  background-color: rgb(93, 63, 138);
+}
+
+.download{
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  color: rgb(108, 117, 125);
+  margin-left: 7px;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.download:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.Bootstrap {
+  height: 40px;
+  width: 110px;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.linkedin {
+  margin-top: 15px;
+}
+
+.link {
+  height: 35px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.apply {
+  border: none;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  width: 220px;
+  transition: background-color 0.15s;
+}
+
+.apply:hover{
+  background-color: rgb(5, 71, 136);
+}
+
+.save{
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 1px;
+  width: 60px;
+  background-color: white;
+  color: rgb(10, 102, 194);
+  transition: border-width 0.15s,
+    background-color 0.15s;
+}
+
+.save:hover{
+  border-width: 2px;
+  background-color: rgba(10, 102, 194, 0.2);
+}
